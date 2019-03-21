@@ -68,7 +68,7 @@ def merge_data(keys,data)
           if data_name == name_key
             new_name = {keys_hash.key(name_key) => name_key}
             new_motto = {keys_hash.key(motto_key)=> motto_key}
-            merged_hash << new_name.merge(data_hash_2)
+            merged_hash << new_motto.merge(data_hash_2)
 binding.pry
           end
         end
