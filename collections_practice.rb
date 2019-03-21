@@ -68,7 +68,6 @@ def merge_data(keys,data)
           if data_name == name_key
             new_name = {keys_hash.key(name_key) => name_key}
             new_motto = {keys_hash.key(motto_key)=> motto_key}
-              if data_hash_2 == :awesomeness
                   data_hash_2 << new_name
 binding.pry
           end
