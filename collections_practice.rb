@@ -66,6 +66,7 @@ def merge_data(keys,data)
         data_hash.each do |data_name, data_hash_2|
           if data_name == keys_hash[:first_name]
                   new_array << keys_hash[:first_name].merge(data_hash_2[1])
+binding.pry
               if data_hash_2[:last_name]
                     data_hash_2[:last_name] = new_motto
                     new_array << data_hash_2
