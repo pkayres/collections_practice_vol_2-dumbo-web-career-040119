@@ -68,7 +68,7 @@ def merge_data(keys,data)
           if data_value == name_key
   binding.pry
             new_hash = {key_data.key(name_key)=> name_key}
-  
+
           end
         end
       end
