@@ -62,7 +62,7 @@ def merge_data(keys,data)
   new_array = []
   keys.each do |keys_hash|
     keys_hash.each do |key_pair|
-      
+
     # name_key = keys_hash[:first_name]
     # motto_key = keys_hash[:motto]
       data.each do |data_hash|
