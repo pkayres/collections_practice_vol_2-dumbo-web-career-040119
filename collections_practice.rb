@@ -77,9 +77,10 @@ end
 
 def find_cool(cool)
   cool.each do |key_pairs|
-    key_pairs.each do |key, value| 
+    key_pairs.each do |key, value|
 binding.pry
     if value == 'cool'
     end
+  end 
   end
 end
