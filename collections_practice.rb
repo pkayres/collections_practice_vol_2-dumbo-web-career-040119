@@ -77,8 +77,5 @@ binding.pry
       end
     end
   end
-end
-end
-end 
     return new_array
 end
