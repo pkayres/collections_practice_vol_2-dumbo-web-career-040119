@@ -79,5 +79,6 @@ def find_cool(cool)
   cool.each do |key, value|
 binding.pry
     if value == 'cool'
-end 
+    end
+  end 
 end
