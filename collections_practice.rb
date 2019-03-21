@@ -76,7 +76,8 @@ def merge_data(keys,data)
 end
 
 def find_cool(cool)
-  cool.each do |key, value|
+  cool.each do |key_pairs|
+    key_pairs.each do |key, value| 
 binding.pry
     if value == 'cool'
     end
