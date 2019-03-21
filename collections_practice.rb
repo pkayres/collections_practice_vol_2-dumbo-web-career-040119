@@ -81,5 +81,5 @@ def find_cool(cool)
 binding.pry
     if value == 'cool'
     end
-  end 
+  end
 end
