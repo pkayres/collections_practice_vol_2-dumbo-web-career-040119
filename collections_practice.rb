@@ -78,5 +78,6 @@ def merge_data(keys,data)
       end
     end
   end
+end 
     return new_array
 end
