@@ -65,7 +65,7 @@ def merge_data(keys,data)
       data.each do |data_hash|
         data_hash.each do |data_name, data_hash_2|
           if data_name == keys_hash[:first_name]
-                new_hash = keys_hash.merge(data_hash_2[:awesomeness])
+                new_hash = keys_hash.merge(data_hash_2)
 binding.pry
               # if data_hash_2[:last_name]
               #       data_hash_2[:last_name] = new_motto
