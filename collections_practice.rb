@@ -81,8 +81,8 @@ def find_cool(cool)
     key_pairs.each do |key, value|
       if value == 'cool'
         coolness.push(key_pairs)
-        binding.pry
       end
     end
   end
+  return coolness
 end
