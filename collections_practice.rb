@@ -82,7 +82,7 @@ def find_cool(cool)
       if value == 'cool'
         coolness.push(key_pairs)
         binding.pry
+      end
     end
-  end
   end
 end
