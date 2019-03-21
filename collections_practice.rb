@@ -61,7 +61,7 @@ end
 def merge_data(keys,data)
   new_array = []
   keys.each do |keys_hash|
-    keys_hash.each do |key_name, key_motto|
+    keys_hash.each do |key_pair|
 binding.pry
       data.each do |data_hash|
         data_hash.each do |data_name, data_hash_2|
