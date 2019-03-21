@@ -65,8 +65,8 @@ def merge_data(keys,data)
     motto_key = key_data[:motto]
       data.each do |data_hash|
         data_hash.each do |data_key, data_value|
-          if data_value == data[:awesomeness]
-            data_value[awesomeness] = key_data[:first_name]
+          if data_value == name_key
+            new_hash = {key_data.key(name_key)=> name_key}
 
     binding.pry
           end
