@@ -1,0 +1,31 @@
+
+[1mFrom:[0m /home/pkayres/collections_practice_vol_2-dumbo-web-career-040119/collections_practice.rb @ line 65 Object#merge_data:
+
+    [1;34m61[0m: [32mdef[0m [1;34mmerge_data[0m(keys,data)
+    [1;34m62[0m:   new_array = []
+    [1;34m63[0m:   keys.each [32mdo[0m |keys_hash|
+    [1;34m64[0m:     keys_hash.each [32mdo[0m |key_pair|
+ => [1;34m65[0m: binding.pry
+    [1;34m66[0m:     [1;34m# name_key = keys_hash[:first_name][0m
+    [1;34m67[0m:     [1;34m# motto_key = keys_hash[:motto][0m
+    [1;34m68[0m:       data.each [32mdo[0m |data_hash|
+    [1;34m69[0m:         data_hash.each [32mdo[0m |data_name, data_hash_2|
+    [1;34m70[0m:           [32mif[0m data_name == name_key
+    [1;34m71[0m:             new_name = {keys_hash.key(name_key) => name_key}
+    [1;34m72[0m:             new_motto = {keys_hash.key(motto_key)=> motto_key}
+    [1;34m73[0m: 
+    [1;34m74[0m:                   data_hash_2 <<  new_name
+    [1;34m75[0m: 
+    [1;34m76[0m:                   [32mif[0m data_hash_2[[33m:last_name[0m]
+    [1;34m77[0m:                     data_hash_2[[33m:last_name[0m] = new_motto
+    [1;34m78[0m:                     new_array << data_hash_2
+    [1;34m79[0m: 
+    [1;34m80[0m:           [32mend[0m
+    [1;34m81[0m:         [32mend[0m
+    [1;34m82[0m:       [32mend[0m
+    [1;34m83[0m:     [32mend[0m
+    [1;34m84[0m:   [32mend[0m
+    [1;34m85[0m: [32mend[0m
+    [1;34m86[0m:     [32mreturn[0m new_array
+    [1;34m87[0m: [32mend[0m
+
