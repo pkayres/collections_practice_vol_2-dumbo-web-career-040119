@@ -59,13 +59,12 @@ end
 # If we encounter the same key/pair we can skip that k/v pair and loop through the remainder of our hash
 # Finally we want to return our new hash that we're created.
 def merge_data(keys,data)
-  new_hash = []
+  merged_hash = []
   keys.each do |key_data|
     name_key = key_data[:first_name]
     motto_key = key_data[:motto]
       data.each do |data_hash|
         data_hash.each do |data_key, data_values|
-
           if data_key == name_key
 binding.pry
             new_hash = {key_data.key(name_key)=> name_key}
@@ -74,4 +73,5 @@ binding.pry
         end
       end
     end
+    return merged_hash 
 end
