@@ -62,7 +62,7 @@ def merge_data(keys,data)
   new_array = []
   keys.each do |keys_hash|
     keys_hash.each do |key,value|
-      if key == data_hash[:name]
+      if key == data[:name]
 
 binding.pry
       data.each do |data_hash|
@@ -79,6 +79,6 @@ binding.pry
       end
     end
   end
-end 
+end
     return new_array
 end
