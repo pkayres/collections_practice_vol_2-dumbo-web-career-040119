@@ -60,14 +60,14 @@ end
 # Finally we want to return our new hash that we're created.
 def merge_data(keys,data)
   merged_hash = []
-  keys.each do |key_data|
-    name_key = key_data[:first_name]
-    motto_key = key_data[:motto]
+  keys.each do |keys_hash|
+    name_key = keys_hash[:first_name]
+    motto_key = keys_hash[:motto]
       data.each do |data_hash|
-        data_hash.each do |data_key, data_values|
+        data_hash.each do |data_name, data_values|
           if data_key == name_key
 binding.pry
-            new_hash = {key_data.key(name_key)=> name_key}
+            new_hash = {key_data.key(name_key) => name_key}
 
           end
         end
