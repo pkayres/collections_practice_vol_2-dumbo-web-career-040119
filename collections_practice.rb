@@ -66,7 +66,7 @@ def merge_data(keys,data)
       data.each do |data_hash|
         data_hash.each do |data_key, data_values|
   binding.pry
-          if data_value == name_key
+          if data_values == name_key
 
             new_hash = {key_data.key(name_key)=> name_key}
 
