@@ -75,5 +75,4 @@ binding.pry
       end
     end
     return merged_hash
-  end 
 end
