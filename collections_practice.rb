@@ -71,6 +71,7 @@ def merge_data(keys,data)
                   data_hash_2[:awesomeness] = new_name
                   if data_hash_2[:last_name]
                     data_hash_2[:last_name] = new_motto
+                    new_array << data_hash_2
 binding.pry
           end
         end
