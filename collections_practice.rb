@@ -75,6 +75,6 @@ binding.pry
         end
       end
     end
-    return merged_hash
+    return new_array
   end
 end
