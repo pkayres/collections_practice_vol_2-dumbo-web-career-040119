@@ -75,5 +75,4 @@ binding.pry
       end
     end
     return new_array
-  end
 end
