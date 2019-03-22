@@ -102,5 +102,6 @@ binding.pry
       end 
     end
   end
+end 
   return organized_schools
 end
