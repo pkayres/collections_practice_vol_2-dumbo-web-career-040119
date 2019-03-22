@@ -89,14 +89,15 @@ end
 
 def organize_schools(schools)
   nyc_schools = []
+  sf_schools = []
   organized_schools = {}
   schools.each do |school,school_data|
       school_data.each do |location, city|
         if city.include?("NYC")
           nyc_schools.push(school)
           organized_schools["NYC"] = nyc_schools
-
         elsif city == "SF"
+          nyc_schools.push(school)
           organized_schools["SF"] = [school]
         else city == "Chicago"
           organized_schools["Chicago"] = [school]
