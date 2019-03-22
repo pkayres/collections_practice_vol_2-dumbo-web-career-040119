@@ -92,7 +92,7 @@ def organize_schools(schools)
   schools.each do |school,school_data|
       school_data.each do |location, city|
         if city == "NYC"
-          organized_schools["NYC"] = []
+          organized_schools["NYC"] = [school]
         end
     binding.pry
   end
