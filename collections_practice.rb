@@ -93,6 +93,7 @@ def organize_schools(schools)
       school_data.each do |location, city|
         if city == "NYC"
           organized_schools["NYC"] = [school]
+binding.pry
         elsif city == "SF"
           organized_schools["SF"] = [school]
         else city == "Chicago"
