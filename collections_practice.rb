@@ -99,7 +99,7 @@ def organize_schools(schools)
           organized_schools["Chicago"] = [school]
 binding.pry
         end
-      end 
+      end
     end
   end
 end 
