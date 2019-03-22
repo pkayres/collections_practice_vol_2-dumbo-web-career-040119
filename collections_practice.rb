@@ -88,5 +88,7 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
-  
+  organized_schools = {}
+  schools.each do |location,city|
+    binding.pry
 end
