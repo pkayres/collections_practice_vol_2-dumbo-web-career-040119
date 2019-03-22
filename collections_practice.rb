@@ -97,7 +97,6 @@ def organize_schools(schools)
           organized_schools["SF"] = [school]
         else city == "Chicago"
           organized_schools["Chicago"] = [school]
-binding.pry
         end
       end
   end
