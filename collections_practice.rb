@@ -92,3 +92,4 @@ def organize_schools(schools)
   schools.each do |location,city|
     binding.pry
 end
+end 
