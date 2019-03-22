@@ -88,10 +88,12 @@ def find_cool(cool)
 end
 
 def organize_schools(schools)
+  nyc_schools = []
   organized_schools = {}
   schools.each do |school,school_data|
       school_data.each do |location, city|
-        if city == "NYC"
+        if city.include?("NYC")
+          nyc_schools.push(school)
           organized_schools["NYC"] = [school]
 binding.pry
         elsif city == "SF"
