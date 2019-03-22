@@ -97,8 +97,8 @@ def organize_schools(schools)
           nyc_schools.push(school)
           organized_schools["NYC"] = nyc_schools
         elsif city == "SF"
-          nyc_schools.push(school)
-          organized_schools["SF"] = [school]
+          sf_schools.push(school)
+          organized_schools["SF"] = sf_schools
         else city == "Chicago"
           organized_schools["Chicago"] = [school]
         end
