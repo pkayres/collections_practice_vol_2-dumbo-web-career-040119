@@ -94,4 +94,4 @@ def organize_schools(schools)
       
     binding.pry
 end
-end 
+end
