@@ -95,6 +95,7 @@ def organize_schools(schools)
         if city.include?("NYC")
           nyc_schools.push(school)
           organized_schools["NYC"] = nyc_schools
+binding.pry
         elsif city == "SF"
           organized_schools["SF"] = [school]
         else city == "Chicago"
