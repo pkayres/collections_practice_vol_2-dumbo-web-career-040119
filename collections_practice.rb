@@ -90,8 +90,8 @@ end
 def organize_schools(schools)
   organized_schools = {}
   schools.each do |school|
-    school.each do |location,city|
+    school.each do |location|
     binding.pry
-    end 
+    end
   end
 end
